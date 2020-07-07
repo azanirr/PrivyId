@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Varela;
+}
+
+.body{
+	display: flex;
+	justify-content: center;
+	border: 1px solid #ced4da;
+	position: relative;
+	margin: 80px 300px;
+	border-radius: 5px;
+	height: 80vh;
+}
+.body form{
+	padding: .375rem .75rem;
+    line-height: 1.5;
+    display: inline;
+}
+.body .formlogin{
+	padding: .375rem .75rem;
+	width: 200px;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.otpinput{
+	display: inline;
+	width: 100%
+}
+
+.inline{
+	width: 50px;
+	float: left;
+	margin: 10px;
+	display: inline;
+}
+
+.headProfile{
+	border: 1px solid #ced4da;
+	position: relative;
+	margin: 80px 200px;
+	border-radius: 5px;
+	height: 500px;	
+}
+.bodyProfile{
+	border: 1px solid #ced4da;
+	position: relative;
+	margin: 80px 200px;
+	border-radius: 5px;
+	height: 200px;	
+}
+
+
+.headProfile .header-image {
+	width: 100%;
+	height: 40%;
+	background-image: url(https://unsplash.com/photos/KJGBY76mmS4/download);
+	background-size: cover;
+	background-position: center;
+}
+
+.headProfile .avatar{
+	position: absolute;
+	border-radius: 50%;
+	top: 150px;
+	left: 40%;
+	height:120px;
+	width: 120px;
+	display: block;
+}
+
+.user-title{
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+	position: relative;
+	height: 100%;
+    text-align: center;
+}
